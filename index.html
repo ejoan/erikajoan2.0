@@ -13,7 +13,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -26,67 +26,107 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="services.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#portfolio-area">Portfolio</a></li>
+                    <li><a href="#contact-area">Contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
     <section class="header-img">
         <img src="assets/images/cropped-keyboard.jpg" class="img-responsive">
+        <div class="header-logo">
+            <img src="assets/images/eja-logo.svg">
+        </div>
     </section>
     <section class="main-content">
         <div class="row">
-            <div class="col-md-4">
-                <div class="summary-header">Skills</div>
-                <div class="column-content">
-                    <ul>
-                        <li>Web Design</li>
-                        <li>UI/ UX Design</li>
-                        <li>Web Development</li>
-                        <li>Graphic Design</li>
-                        <li>HTML 5</li>
-                        <li>CSS / LESS</li>
-                    </ul>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="summary-header">Skills</div>
+                        <div class="column-content">
+                            <ul>
+                                <li>Web Design</li>
+                                <li>UI/ UX Design</li>
+                                <li>Web Development</li>
+                                <li>Graphic Design</li>
+                                <li>HTML 5</li>
+                                <li>CSS / LESS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="summary-header">Tools</div>
+                        <div class="column-content">
+                            <ul>
+                                <li>Illustrator</li>
+                                <li>Photoshop</li>
+                                <li>InDesign</li>
+                                <li>Bootstrap</li>
+                                <li>Sublime</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="summary-header">Experience</div>
+                        <div class="column-content">
+                            Since I graduated with my Bachelor of Design degree from the York / Sheridan Joint Programme in Design, I&#8217;ve gained experience as an in-house designer at a start-up company, agency &amp; <a href="http://ca.linkedin.com/in/ejoan" target="_blank">more</a>.
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="summary-header">Tools</div>
-                <div class="column-content">
-                    <ul>
-                        <li>Illustrator</li>
-                        <li>Photoshop</li>
-                        <li>InDesign</li>
-                        <li>Bootstrap</li>
-                        <li>Sublime</li>
-                        <li>Git</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="summary-header">Experience</div>
-                <div class="column-content">
-                    Since I graduated with my Bachelor of Design degree from the York / Sheridan Joint Programme in Design, I&#8217;ve gained experience as an in-house designer at a start-up company, agency &amp; more. <br>Find out more details <a href="http://ca.linkedin.com/in/ejoan" target="_blank">here</a>.
-                </div>
-            </div>
-        </div>
-        <div class="about-me">
-            <div class="row">
-                <div class="col-md-2">
+                <div class="about-me">
+                    <div class="summary-header about">Hey there</div>
                     <div class="about-img">
                         <img src="assets/images/bw-about.jpg" class="img-responsive">
                     </div>
-                </div>
-                <div class="col-md-10">
                     <div class="about-text">
-                        <h3>Hey there,</h3>
+                        <!-- <h3>Hey there,</h3> -->
                         <p>I&#8217;m Erika, a designer who likes to dream up and implement creative solutions for clients in need of some design love. Apart from design, I&#8217;m a dabbler in all things that peak my interest such as tarot, healing crystals, and a hoppy IPA.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="portfolio" id="portfolio-area">
+        <div class="wrap-nested-row">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="title">Chango Dashboard Navigation Redesign</div>
+                    <div class="desc">
+                        Lead Designer of the dashboard navigation redesign. Responsibilities included research, preliminary sketches mock-up phases, user testing and front end development.
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="work-img"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="title">Email Newsletters</div>
+                    <div class="desc">Select custom designed email newsletters made in photoshop.</div>
+                </div>
+                <div class="col-md-8">
+                    <div class="work-img"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="title">Neuroscience of Magic</div>
+                    <div class="desc">
+                        This is a collection of visual illusions, if you will, based on research about how the human brain perceives deception. The contents of the box explore and provide examples of the many ways magic utilizes the gaps in human perception.
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="work-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="row" id="contact-area"></footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

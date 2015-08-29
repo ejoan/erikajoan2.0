@@ -7,28 +7,29 @@ body {
 }
 .navbar {
     background: #7ee8dd;
-    min-height: 40px;
-    line-height: 40px;
+    height: 60px;
+    line-height: 60px;
     padding: 0 25px;
     margin-bottom: 0;
     border: none;
     background-image: none;
     border-radius: 0;
+    box-shadow: 3px 0 3px rgba(0,0,0,0.3);
 }
 
 .navbar-default .navbar-brand {
-    color: #72ccc1;
+    color: rgba(0,0,0,0.3);
     font-size: 14px;
-    line-height: 10px;
-    height: 40px;
+    line-height: 30px;
+    height: 60px;
 }
 .navbar-default .navbar-brand:hover {
-    color: #72ccc1;
+    color: rgba(0,0,0,0.3);
     cursor: default;
 }
 .navbar-nav li {
-    line-height: 40px;
-    height: 40px;
+    line-height: 60px;
+    height: 60px;
     vertical-align: middle;
 }
 .navbar-default .navbar-nav li a {
@@ -43,8 +44,21 @@ body {
     color: #fff;
 }
 .navbar-default .navbar-nav li a:hover {
-    color: rgba(255,255,255,0.6);
+    color: #fff;
     text-shadow: none;
+}
+a.navbar-brand:hover {
+    opacity: 1.0;
+}
+.header-img {
+    padding-top: 60px;
+    position: relative;
+}
+.header-logo {
+    position: absolute;
+    left: 40px;
+    top: 135px;
+    width: 100px;
 }
 
 /* content styles */
@@ -52,15 +66,21 @@ body {
     padding: 40px;
 }
 .summary-header {
-    background: #ff7c66;
+    border-bottom: 2px solid rgba(255,124,102,0.2);
     text-transform: uppercase;
-    font-weight: bold;
     height: 40px;
     line-height: 40px;
-    color: #fff;
+    color: #ff7c66;
     text-align: center;
     font-size: 20px;
+    letter-spacing: 1px;
 }
+.summary-header.about {
+    border: none;
+    border-bottom: 2px solid rgba(114,204,193,0.2);
+    color: #72ccc1;
+}
+
 .column-content {
     color: #59595b;
     font-size: 20px;
@@ -85,33 +105,52 @@ a:hover {
 a:visited {
    color: #72ccc1;
 }
-.about-me {
-    margin: 40px 0;
-    border-top: 7px solid #72ccc1;
-    padding: 20px;
-}
 .about-me .row {
     vertical-align: middle;
 }
 .about-img {
     max-width: 190px;
+    margin: 0 auto;
+    margin-top: 23px;
 }
 .about-img img {
     border-radius: 95px;
 }
 .about-me h3 {
-    color: #ff7c66;
+    /*color: #ff7c66;*/
+    color: #72ccc1;
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
 }
 .about-text {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 23px;
     display: table-cell;
     vertical-align: middle;
 }
 .about-text p {
-    margin: 0;
+    margin: 20px 0 0;
+    color: #59595b;
+}
+
+.portfolio {
+    padding: 40px;
+    background: rgba(114,204,193,0.1);
+}
+.portfolio .row {
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 18px;
+    color: #8a8a8c;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(138,138,140,0.5);
+}
+.desc {
+    font-size: 16px;
     color: #59595b;
 }
