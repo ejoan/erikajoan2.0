@@ -156,3 +156,18 @@ a:visited {
     color: #59595b;
     margin-bottom: 20px;
 }
+#contact-area {
+    display: table;
+    width: 100%;
+    padding: 0 45px;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(89,89,91,0.2);
+    color: #59595b;
+    text-align: right;
+}
+.copyright {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+}
