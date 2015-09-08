@@ -166,6 +166,24 @@ a:visited {
     color: #59595b;
     text-align: right;
 }
+.social-icons {
+    text-align: left;
+}
+.social-icons div {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.social-icons .fa-envelope-o {
+    font-size: 16px;
+    margin-top: 4px;
+}
+.social-icons div a, .social-icons div a:visited, .social-icons div a:focus {
+    color: #59595b;
+}
+.social-icons div a:hover {
+    color: #59595b;
+}
 .copyright {
     display: table-cell;
     vertical-align: middle;
