@@ -54,12 +54,6 @@ a.navbar-brand:hover {
     padding-top: 60px;
     position: relative;
 }
-.header-logo {
-    position: absolute;
-    left: 40px;
-    top: 135px;
-    width: 100px;
-}
 
 /* content styles */
 .main-content {
@@ -183,6 +177,10 @@ a:visited {
 }
 .social-icons div a:hover {
     color: #59595b;
+}
+.social-icons .contact-text {
+    display: inline-block;
+    font-size: 14px;
 }
 .copyright {
     display: table-cell;
