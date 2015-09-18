@@ -23,6 +23,23 @@ body {
     line-height: 30px;
     height: 60px;
 }
+.navbar-default .navbar-toggle {
+    border: none;
+    margin-top: 14px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: #fff;
+
+}
+.navbar-default .navbar-collapse.collapse.in, .navbar-default .navbar-collapse.collapsing {
+    background: #ff7c66;
+    border-top: 0;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+}
+.navbar-default .navbar-collapse.collapse.in li, .navbar-default .navbar-collapse.collapsing li {
+    height: 40px;
+    line-height: 40px;
+}
 .navbar-default .navbar-brand:hover {
     color: rgba(0,0,0,0.3);
     cursor: default;
@@ -186,4 +203,23 @@ a:visited {
     display: table-cell;
     vertical-align: middle;
     font-size: 12px;
+}
+@media (max-width: 768px) {
+    #contact-area .copyright {
+        margin-top: -30px;
+    }
+    .social-icons .contact-text {
+        display: none;
+    }
+    .social-icons {
+        text-align: center;
+    }
+    .social-icons div {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .copyright {
+        display: block;
+        text-align: center;
+    }
 }
