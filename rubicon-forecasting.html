@@ -6,8 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Erika Joan</title>
 
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
         <!-- Font - Quattrosans -->
         <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
@@ -21,6 +19,7 @@
         <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
 
         <link href="assets/css/styleguide.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -47,12 +46,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="nav-target">
                     <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="index.html" id="home-link">
-                                Home
-                            </a>
+                        <li>
+                            <a id="home-link" href="index.html">Home</a>
                         </li>
-                        <li class="dropdown">
+                        <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                 Portfolio
                                 <i class="fa fa-angle-down"></i>
@@ -79,44 +76,69 @@
                                 <li>
                                     <a href="rubicon-bidder-enhancements.html">Interface Enhancements</a>
                                 </li>
-                                <li>
-                                    <a href="rubicon-bidder-datepicker.html">Datepicker</a>
-                                </li>
                             </ul>
                         </li>
                     </ul>
+                    <div class="social-icons pull-right">
+                        <div class="twitter"><a href="https://twitter.com/eejaya"><i class="fa fa-twitter"></i></a></div>
+                        <div class="linkedin"><a href="https://ca.linkedin.com/in/ejoan"><i class="fa fa-linkedin"></i></a></div>
+                        <div class="email"><a href="mailto:ejoanand@gmail.com"><i class="fa fa-envelope-o"></i></a></div>
+                    </div>
                 </div>
             </div>
         </nav>
-        <section class="header-img">
-            <img src="assets/images/cropped-keyboard-bw.jpg" class="img-responsive">
-        </section>
-        <section class="main-content">
-            <div class="row">
-                <div class="col-md-6 about-me">
-                    <div class="summary-header about">Hello,</div>
-                    <p class="about-text">I&#8217;m Erika, a designer who likes to dream up and implement creative solutions for clients in need of some design love. Since I graduated with my Bachelor of Design degree from the York / Sheridan Joint Programme in Design, I&#8217;ve gained experience as an in-house designer at a start-up company, agency &amp; <a href="http://ca.linkedin.com/in/ejoan" target="_blank">more</a>.</p>
-                </div>
-                <div class="col-md-5">
-                    <div class="summary-header">Skills & Tools</div>
-                        <div class="column-content">
-                            <p>
-                                Web Design, UI / UX Design, Web Development, HTML5, CSS, LESS, Graphic Design
-                            </p>
-                            <p>
-                                Sketch, Illustrator, Photoshop, Bootstrap, Sublime, Git, Trello
-                            </p>
+        <section class="portfolio" id="portfolio-area">
+            <div class="wrap-nested-row">
+                <div class="project">
+                    <div class="row">
+                        <div class="col-md-12 project-navigation">
+                            <a href="chango-forms.html" class="prev pull-left">&lsaquo; Prev Project</a>
+                            <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="project title">Rubicon Dashboard: Audience Forecasting</div>
+                            <div class="project desc">
+                                This new feature in the Rubicon Dashboard was implemented to allow users to determine the potential reach of a future advertising campaign. The audience forecast is established based on a set of parameters users are asked to specify, such as audience segment, inventory type, and region.
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                    <div class="row">
+                        <div class="project-area">
+                            <div class="col-md-12">
+                                <div class="title">Audience Forecasting</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="desc">
+                                    Once the user has specified all of the desired parameters, they can press the calculate button to see the estimated reach.
+                                </div>
+                                <nav class="img-toggle" aria-label="Toggle Progress">
+                                    <ul class="pagination">
+                                        <li class="active"><a class="link-1" href="">View 1</a></li>
+                                        <li><a class="link-2" href="">View 2</a></li>
+                                        <li><a class="link-3" href="">View 3</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-9">
+                                <img class="image-1 forecasting-1" src="assets/images/audience-forecasting/2016-December-Audience-Forecast-Empty.jpg">
+                                <img class="image-2 forecasting-2" src="assets/images/audience-forecasting/2016-December-Audience-Forecast-Close.jpg" style="display: none;">
+                                <img class="image-3 forecasting-3" src="assets/images/audience-forecasting/2016-December-Audience-Forecast-Results.jpg" style="display: none;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 project-navigation">
+                            <a href="chango-forms.html" class="prev pull-left">&lsaquo; Prev Project</a>
+                            <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="social-icons">
-                <div class="twitter"><a href="https://twitter.com/eejaya"><i class="fa fa-twitter"></i></a></div>
-                <div class="linkedin"><a href="https://ca.linkedin.com/in/ejoan"><i class="fa fa-linkedin"></i></a></div>
-                <div class="email"><a href="mailto:ejoanand@gmail.com"><i class="fa fa-envelope-o"></i></a></div>
-            </div>
             <div class="copyright">
                 Design &amp; Build by Erika Joan Anderson &copy;
             </div>
