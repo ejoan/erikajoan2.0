@@ -29,8 +29,8 @@
         <meta name="msapplication-config" content="/browserconfig.xml">
         <!-- ****** faviconit.com favicons ****** -->
 
-        <!-- Font - Quattrosans -->
-        <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <!-- Font - Lora & Lato -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lora:400,400i,700&display=swap" rel="stylesheet" type="text/css">
 
         <!-- Fontawesome  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -55,7 +55,7 @@
         <script src="helper.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-target" aria-expanded="false">
@@ -79,59 +79,101 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="subheader">Chango Dashboard</li>
                                 <li>
-                                    <a class="project-link" href="work.html" id="portfolio-link">Redesign</a>
-                                </li>
-                                <li class="subheader">Rubicon Dashboard</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-forecasting.html">Audience Forecasting</a>
+                                    <a class="project-link" href="product-design.html">Product Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-cross-device.html">Cross Device Reporting</a>
+                                    <a class="project-link" href="web-design.html">Web Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-creatives.html">Creatives</a>
-                                </li>
-                                <li class="subheader">Rubicon Enterprise Bidder</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-bidder-enhancements.html">Interface Enhancements</a>
+                                    <a class="project-link" href="graphic-design.html">Graphic Design</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li class="contact-link">
+                            <a href="contact.html">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="header-img">
-            <img src="assets/images/cropped-keyboard-bw.jpg" class="img-responsive">
-        </section>
         <section class="main-content">
             <div class="row">
-                <div class="col-md-6 about-me">
-                    <div class="summary-header about">Hello,</div>
-                    <p class="about-text">I&#8217;m Erika, a designer who likes to dream up and implement creative solutions for clients in need of some design love. Since I graduated with my Bachelor of Design degree from the York / Sheridan Joint Programme in Design, I&#8217;ve gained experience as an in-house designer at a start-up company, agency &amp; <a href="http://ca.linkedin.com/in/ejoan" target="_blank">more</a>.</p>
+              <div class="col-md-12 intro nav-transition">
+                  <p>Hello,</p>
+                  <p class="about-text">I&#8217;m Erika, a multidisciplinary designer with a focus on cross-team collaboration and development to ensure requirements are captured, understood by all involved, and transformed into solutions that consider and respect users.</p>
+              </div>
+            </div>
+            <div class="work row">
+                <div class="col-sm-4 col-md-4">
+                    <a href="product-design.html">
+                        <div class="card">
+                            <p class="title">Product Design</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-md-5">
-                    <div class="summary-header">Skills & Tools</div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="web-design.html">
+                        <div class="card">
+                            <p class="title">Web Design</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <a href="graphic-design.html">
+                        <div class="card">
+                            <p class="title">Graphic Design</p>
+                            <div class="cta">View</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <section class="qualifications">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <div class="summary-header">Skills</div>
                         <div class="column-content">
                             <p>
-                                Web Design, UI / UX Design, Web Development, HTML5, CSS, LESS, Graphic Design
+                                UI/UX Design, Web Design, Web Development, Graphic Design
                             </p>
+
+                        </div>
+                        <div class="summary-header">Tools</div>
+                        <div class="column-content">
                             <p>
-                                Sketch, Illustrator, Photoshop, Bootstrap, Sublime, Git, Trello, JIRA
+                                Sketch, Illustrator, Photoshop, InDesign, Atom, Git, Bootstrap, HTML5, CSS, LESS/SASS, Trello, JIRA
                             </p>
                         </div>
                     </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="summary-header">Education</div>
+                        <div class="column-content">
+                            <ul>
+                                <li>
+                                    <span class="all-caps">cxr</span> &ndash; Certified User Experience Researcher
+                                    <br/>
+                                    <em>
+                                        Akendi
+                                    </em>
+                                </li>
+                                <li>
+                                    Bachelor of Design
+                                    <br/>
+                                    <em>
+                                        York University/Sheridan College Program in Design
+                                    </em>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </section>
         <footer>
-            <div class="social-icons">
-                <div class="twitter"><a href="https://twitter.com/eejaya"><i class="fa fa-twitter"></i></a></div>
-                <div class="linkedin"><a href="https://ca.linkedin.com/in/ejoan"><i class="fa fa-linkedin"></i></a></div>
-                <div class="email"><a href="mailto:ejoanand@gmail.com"><i class="fa fa-envelope-o"></i></a></div>
-            </div>
             <div class="copyright">
                 Design &amp; Build by Erika Joan Anderson &copy;
             </div>

@@ -55,7 +55,7 @@
         <script src="helper.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top shadow">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-target" aria-expanded="false">
@@ -77,54 +77,56 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="subheader">Chango Dashboard</li>
                                 <li>
-                                    <a class="project-link" href="work.html" id="portfolio-link">Redesign</a>
-                                </li>
-                                <li class="subheader">Rubicon Dashboard</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-forecasting.html">Audience Forecasting</a>
+                                    <a class="project-link" href="product-design.html">Product Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-cross-device.html">Cross Device Reporting</a>
+                                    <a class="project-link" href="web-design.html">Web Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-creatives.html">Creatives</a>
-                                </li>
-                                <li class="subheader">Rubicon Enterprise Bidder</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-bidder-enhancements.html">Interface Enhancements</a>
+                                    <a class="project-link" href="graphic-design.html">Graphic Design</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li class="contact-link">
+                            <a href="contact.html">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="project-intro">
+            <section class="main-content">
+                <div class="row">
+                    <div class="col-md-12 project-navigation top">
+                        <a class="prev disabled pull-left">&lsaquo; Prev Project</a>
+                        <a href="rubicon-forecasting.html" class="next pull-right">Next Project &rsaquo;</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-title">
+                            Product Design: Dashboard Redesign
+                            <br />
+                            <em>Chango</em>
+                        </h1>
+                        <div class="project desc">
+                            The main aim of this project was to improve the navigation and content hierarchy by consolidating the top and left navigation. Responsibilities included research, preliminary sketches, mock-up phases, user testing, and front-end development. The Result&mdash;one top navigation with a breadcrumb for context clarity, easy backtracking, and a face-lift on key features of the dashboard.
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </section>
+        </div>
         <section class="portfolio" id="portfolio-area">
             <div class="wrap-nested-row">
                 <div class="project">
-                    <div class="row">
-                        <div class="col-md-12 project-navigation">
-                            <a class="prev disabled pull-left">&lsaquo; Prev Project</a>
-                            <a href="rubicon-forecasting.html" class="next pull-right">Next Project &rsaquo;</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="project title">Chango Dashboard: Redesign</div>
-                            <div class="project desc">
-                                The main aim of this project was to improve the navigation and content hierarchy by consolidating the top and left navigation. Responsibilities included research, preliminary sketches, mock-up phases, user testing and front end development. The Result &mdash; one top navigation with a breadcrumb for context clarity, easy back tracking, and a face-lift on key features of the dashboard.
-                            </div>
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">1. Navigation</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Navigation</div>
                                 <div class="desc">
                                     Left navigation has been integrated into a horizontal top header to create more retail space for graphs and reporting features across the dashboard.
                                 </div>
@@ -135,18 +137,16 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 account-page-new" src="assets/images/dashboard-redesign/account/refresh/account-page2.jpg">
-                                <img class="image-2 account-page-old" src="assets/images/dashboard-redesign/account/old/2013-Oct-Account-View2.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 account-page-new" alt="A screenshot of the outcome of the navigation interface redesign." src="assets/images/product-design/dashboard-redesign/account/refresh/account-page2.jpg">
+                                <img class="image-2 account-page-old" alt="A screenshot of the navigation interface before the redesign." src="assets/images/product-design/dashboard-redesign/account/old/2013-Oct-Account-View2.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">2. Datepicker</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Datepicker</div>
                                 <div class="desc">
                                     The size of the datepicker has been made smaller to make room for the links now included in the top navigation and includes the exact date range.
                                 </div>
@@ -157,20 +157,18 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 datepicker-new" src="assets/images/dashboard-redesign/datepicker/refresh/account_datepicker.jpg">
-                                <img class="image-2 datepicker-old" src="assets/images/dashboard-redesign/datepicker/old/2015-March-Datepicker2.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 datepicker-new" alt="A screenshot of the outcome of the button components redesign." src="assets/images/product-design/dashboard-redesign/datepicker/refresh/account_datepicker.jpg">
+                                <img class="image-2 datepicker-old" alt="A screenshot of the button components before their redesign." src="assets/images/product-design/dashboard-redesign/datepicker/old/2015-March-Datepicker2.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">3. Tickets</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Tickets</div>
                                 <div class="desc">
-                                    <p>The dashboard ticketing system is used to create tickets for tasks or issues that need to be addressed by specialty users such as QA, Optimization, or Data Analytics. The re-skin of the tickets component aimed to clarify who the reporters and the assignees of the tickets were, as well as establish the originating context of the tickets.</p>
+                                    <p>TThe dashboard ticketing system is used to create tickets for tasks or issues that need to be addressed by specialty users such as QA, optimization, or data analytics personnel. The re-skin of the tickets component aimed to clarify who the reporters and the assignees of the tickets were, as well as establish the originating context of the tickets.</p>
                                     <em>Note: The outcome image has been captured after Chango was acquired by The Rubicon Project.</em>
                                 </div>
                                 <nav class="img-toggle" aria-label="Toggle Progress">
@@ -180,20 +178,18 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 tickets-new" src="assets/images/dashboard-redesign/tickets/refresh/2016-December-Tickets.jpg">
-                                <img class="image-2 tickets-old" src="assets/images/dashboard-redesign/tickets/old/2015-March-Tickets2.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 tickets-new" alt="A screenshot of the outcome of the ticket interface redesign." src="assets/images/product-design/dashboard-redesign/tickets/refresh/2016-December-Tickets.png">
+                                <img class="image-2 tickets-old" alt="A screenshot of the ticket interface before the redesign." src="assets/images/product-design/dashboard-redesign/tickets/old/2015-March-Tickets2.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">4. Notes</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Notes</div>
                                 <div class="desc">
-                                    <p>The notes component proved to be a very useful tool for ad operations users to communicate with one another about any updates on any accounts, campaigns or tactics. This design revamp introduced pinning notes, and contextual notes.</p>
+                                    <p>The notes component proved to be a very useful tool for ad operations personnel to communicate with one another about any updates on any accounts, campaigns, or tactics. This restructuring introduced the idea of 'pinning' notes and contextual notes.</p>
                                     <em>Note: The outcome image has been captured after Chango was acquired by The Rubicon Project.</em>
                                 </div>
                                 <nav class="img-toggle" aria-label="Toggle Progress">
@@ -203,18 +199,17 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 notes-new" src="assets/images/dashboard-redesign/notes/refresh/2016-December-Notes.jpg">
-                                <img class="image-2 notes-old" src="assets/images/dashboard-redesign/notes/old/2015-March-Notes2.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 notes-new" alt="A screenshot of the outcome of the notes interface redesign." src="assets/images/product-design/dashboard-redesign/notes/refresh/2016-December-Notes.png">
+                                <img class="image-2 notes-old" alt="A screenshot of the notes interface before the redesign." src="assets/images/product-design/dashboard-redesign/notes/old/2015-March-Notes2.jpg"
+                                style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">5. Activity Logs</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Activity Logs</div>
                                 <div class="desc">
                                     <p>The activity logs help users track all the changes that have been made to an account or any object pertaining to it. These logs provide the details of who performed the changes, the old value and the new value of the changed item in a column format.</p>
                                     <em>Note: The outcome image has been captured after Chango was acquired by The Rubicon Project.</em>
@@ -226,34 +221,29 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 logs-new" src="assets/images/dashboard-redesign/activities/refresh/2016-December-Activities.jpg">
-                                <img class="image-2 logs-old" src="assets/images/dashboard-redesign/activities/old/2015-March-Logs2.jpg" style="display: none;">
-
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 logs-new" alt="A screenshot of the outcome of the activity logs interface redesign." src="assets/images/product-design/dashboard-redesign/activities/refresh/2016-December-Activities.png">
+                                <img class="image-2 logs-old" alt="A screenshot of the activity logs interface before the redesign." src="assets/images/product-design/dashboard-redesign/activities/old/2015-March-Logs2.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">6. Footer</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Footer</div>
                                 <div class="desc no-toggle">
-                                    A footer was introduced when it was decided that we were going to get rid of the left navigation. Account meta data normally found at the bottom of the navigation on the left hand side was moved into a page footer for easy reference. More account information was added into the footer as the dashboard and its users evolved.
+                                    A footer was introduced when it was decided that we were going to get rid of the left navigation. Account metadata normally found at the bottom of the navigation on the left-hand side was moved into a page footer for easy reference. More account information was added into the footer as the dashboard and its users evolved.
                                 </div>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 footer" src="assets/images/dashboard-redesign/campaign/refresh/campaign_performance_table.jpg">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 footer" alt="A screenshot of the outcome of the new footer design" src="assets/images/product-design/dashboard-redesign/campaign/refresh/campaign_performance_table.png">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">7. Report Builder</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Report Builder</div>
                                 <div class="desc">
                                     This is one of the many interfaces that benefit greatly from more horizontal space, having retired the left navigation. This area was used to build custom reports that were exportable and available to send as email subscriptions.
                                 </div>
@@ -264,27 +254,24 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 builder-new" src="assets/images/dashboard-redesign/report-builder/refresh/report_builder.jpg">
-                                <img class="image-2 builder-old" src="assets/images/dashboard-redesign/report-builder/old/2013-October-Report-Builder.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 builder-new" alt="A screenshot of the outcome of the report builder interface redesign." src="assets/images/product-design/dashboard-redesign/report-builder/refresh/report_builder.png">
+                                <img class="image-2 builder-old" alt="A screenshot of the report builder interface before the redesign." src="assets/images/product-design/dashboard-redesign/report-builder/old/2013-October-Report-Builder.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 project-navigation">
-                            <a class="prev disabled pull-left">&lsaquo; Prev Project</a>
-                            <a href="rubicon-forecasting.html" class="next pull-right">Next Project &rsaquo;</a>
+                    </section>
+                    <section class="project-navigation bottom">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="prev disabled pull-left">&lsaquo; Prev Project</a>
+                                <a href="rubicon-forecasting.html" class="next pull-right">Next Project &rsaquo;</a>
+                            </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="social-icons">
-                <div class="twitter"><a href="https://twitter.com/eejaya"><i class="fa fa-twitter"></i></a></div>
-                <div class="linkedin"><a href="https://ca.linkedin.com/in/ejoan"><i class="fa fa-linkedin"></i></a></div>
-                <div class="email"><a href="mailto:ejoanand@gmail.com"><i class="fa fa-envelope-o"></i></a></div>
-            </div>
             <div class="copyright">
                 Design &amp; Build by Erika Joan Anderson &copy;
             </div>

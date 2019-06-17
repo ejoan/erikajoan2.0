@@ -8,7 +8,7 @@
 
         <!-- ****** faviconit.com favicons ****** -->
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
         <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
         <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
@@ -29,8 +29,8 @@
         <meta name="msapplication-config" content="/browserconfig.xml">
         <!-- ****** faviconit.com favicons ****** -->
 
-        <!-- Font - Quattrosans -->
-        <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <!-- Font - Lora & Lato -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lora:400,400i,700&display=swap" rel="stylesheet" type="text/css">
 
         <!-- Fontawesome  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -55,7 +55,7 @@
         <script src="helper.js"></script>
     </head>
     <body>
-        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top shadow">
+        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-target" aria-expanded="false">
@@ -69,7 +69,9 @@
                 <div class="collapse navbar-collapse" id="nav-target">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a id="home-link" href="index.html">Home</a>
+                            <a href="index.html" id="home-link">
+                                Home
+                            </a>
                         </li>
                         <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -97,64 +99,56 @@
                 </div>
             </div>
         </nav>
-        <div class="project-intro">
-            <section class="main-content">
-                <div class="row">
-                    <div class="col-md-12 project-navigation top">
-                        <a href="chango-dashboard.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                        <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
+        <section class="main-content" id="chatkit-sales">
+            <h1 class="page-title nav-transition">Graphic Design</h1>
+            <div class="feature project">
+                <div class="copy">
+                    <div class="title">
+                        Sales Enablement Design
+                        <br />
+                        <span class='italic'>Chatkit</span>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            As a member of the Marketing Team at Chatkit, I was responsible for creating sales enablement collateral that was in line with the Chatkit brand such as, imagery for social ad campaigns, one-pagers, case studies, and swag for conferences.
+                        </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-title">
-                            Product Design: Audience Forecasting
-                            <br />
-                            <em>The Rubicon Project</em>
-                        </h1>
-                        <div class="project desc">
-                            This new feature in the Rubicon Dashboard was implemented to allow users to determine the potential reach of future advertising campaigns. The audience forecast is established based on a set of parameters users are asked to specify, such as audience segment, inventory type, and region.
-                        </div>
+                <div class="image">
+                    <div class="img-wrap">
+                        <img alt="Chakit logo on blue background" src="assets/images/graphic-design/chatkit-splash-blue.png" />
                     </div>
-                    <div class="col-md-4"></div>
-                </div>
-            </section>
-        </div>
-        <section class="portfolio" id="portfolio-area">
-            <div class="wrap-nested-row">
-                <div class="project">
-                    <section class="main-content project-area">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="title">Forecasting Interface</div>
-                                <div class="desc">
-                                    Once the user has specified all of the desired parameters, they can press the calculate button to see the estimated reach.
-                                </div>
-                                <nav class="img-toggle" aria-label="Toggle Progress">
-                                    <ul class="pagination">
-                                        <li class="active"><a class="link-1" href="">View 1</a></li>
-                                        <li><a class="link-2" href="">View 2</a></li>
-                                        <li><a class="link-3" href="">View 3</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="col-md-12 work-images">
-                                <img class="image-1 forecasting-1" alt="A screenshot of the audience forecasting interface that requires the user to enter in desired parameters and submit them to calculate the estimated reach." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Empty.jpg">
-                                <img class="image-2 forecasting-2" alt="A screenshot of a close up of the interface, showing form input details and an example of using the interface." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Close.jpg" style="display: none;">
-                                <img class="image-3 forecasting-3" alt="A screenshot of the calculated results based on the example parameters in the previous image." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Results.jpg" style="display: none;">
-                            </div>
-                        </div>
-                    </section>
-                    <section class="project-navigation bottom">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="chango-dashboard.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                                <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </div>
+        </section>
+        <section class="main-content sales-mocks">
+            <div>
+                <div class="img-wrap one-up">
+                    <img alt="A mockup of two LinkedIn Ads with Chatkit inspired imagery" src="assets/images/graphic-design/ad-campaign-imagery.png" />
+                </div>
+            </div>
+            <div>
+                <div class="img-wrap two-up">
+                    <img alt="An image of a two-page case study layout designed for Chatkit, showing how the brand Draper James generated results using the Chatkit Platform." src="assets/images/graphic-design/dj-case-study.png" />
+                </div>
+                <div class="img-wrap two-up">
+                    <img alt="An image of a two-page case study layout designed for Chatkit, showing how the brand Pela Case generated results using the Chatkit Platform." src="assets/images/graphic-design/pela-case-study.png" />
+                </div>
+            </div>
+            <div>
+                <div class="img-wrap one-up">
+                    <img alt="An image of a one-pager layout designed to be distributed to potential clients as a follow-up piece for the Chatkit Sales Team." src="assets/images/graphic-design/onepager.png" />
+                </div>
+            </div>
+            <div>
+                <div class="img-wrap two-up">
+                    <img alt="A photo of a promotional blue Chatkit box made as a giveaway for an industry conference. The Chatkit logo is on the top of the box and printed on the opening edge are the words 'Ready to make your marketing mobile?'" src="assets/images/graphic-design/chat-kit-closed.jpg" />
+                </div>
+                <div class="img-wrap two-up">
+                    <img alt="A photo of the interior of a promotional blue Chatkit box made as a giveaway for an industry conference. The inner lid of the box provides a description of each item included and the box itself contains branded items such as a portable phone battery charger, a microfibre lens cleaning cloth, a popsocket phone holder, and a phone stand."src="assets/images/graphic-design/chat-kit-open.jpg" />
+                </div>
+            </div>
+
         </section>
         <footer>
             <div class="copyright">
