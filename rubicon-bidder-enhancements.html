@@ -55,7 +55,7 @@
         <script src="helper.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top shadow">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-target" aria-expanded="false">
@@ -77,56 +77,58 @@
                                 <i class="fa fa-angle-down"></i>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="subheader">Chango Dashboard</li>
                                 <li>
-                                    <a class="project-link" href="work.html" id="portfolio-link">Redesign</a>
-                                </li>
-                                <li class="subheader">Rubicon Dashboard</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-forecasting.html">Audience Forecasting</a>
+                                    <a class="project-link" href="product-design.html">Product Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-cross-device.html">Cross Device Reporting</a>
+                                    <a class="project-link" href="web-design.html">Web Design</a>
                                 </li>
                                 <li>
-                                    <a class="project-link" href="rubicon-creatives.html">Creatives</a>
-                                </li>
-                                <li class="subheader">Rubicon Enterprise Bidder</li>
-                                <li>
-                                    <a class="project-link" href="rubicon-bidder-enhancements.html">Interface Enhancements</a>
+                                    <a class="project-link" href="graphic-design.html">Graphic Design</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li class="contact-link">
+                            <a href="contact.html">
+                                Contact
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <div class="project-intro">
+            <section class="main-content">
+                <div class="row">
+                    <div class="col-md-12 project-navigation top">
+                        <a href="rubicon-creatives.html" class="prev pull-left">&lsaquo; Prev Project</a>
+                        <a class="next disabled pull-right">Next Project &rsaquo;</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-title">
+                            Product Design: Enterprise Bidder Enhancements
+                            <br />
+                            <em>The Rubicon Project</em>
+                        </h1>
+                        <div class="project desc">
+                            When the Rubicon Project Enterprise Bidder (RPEB) first came to be, it was a project spearheaded by a team of engineers. While they built a powerful product, there were some crucial user experience problems, a lack of branding, and no design consistency. This project shows steps we took to begin introducing more user-friendly elements into the platform. Although it hasn't gone through a complete transition, some small improvements have created a much more enjoyable experience.
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </section>
+        </div>
         <section class="portfolio" id="portfolio-area">
             <div class="wrap-nested-row">
                 <div class="project">
-                    <div class="row">
-                        <div class="col-md-12 project-navigation">
-                            <a href="rubicon-creatives.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                            <a class="next disabled pull-right">Next Project &rsaquo;</a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="project title">Rubicon Enterprise Bidder: Interface Enhancements</div>
-                            <div class="project desc">
-                                The Rubicon Project Enterprise Bidder (RPEB) is a self-serve bidding platform that was built by developers, but without guidance from a designer. This resulted in a dated looking product, with no branding that was hard to use. Although it hasn't gone through a complete transition, there are some small improvements that have created a much more enjoyable experience.
-                            </div>
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">1. Navigation</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Navigation</div>
                                 <div class="desc">
-                                    Adding brand colours and a context appropriate logo was the first of many changes to create big visual impact on the Enterprise Bidder.
+                                    Adding brand colours and a context appropriate logo was the first of many changes to create a big visual impact on the Enterprise Bidder.
                                 </div>
                                 <nav class="img-toggle" aria-label="Toggle Progress">
                                     <ul class="pagination">
@@ -135,18 +137,16 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 rpeb-nav-new" src="assets/images/rpeb/refresh/2016-rpeb-nav.jpg">
-                                <img class="image-2 rpeb-nav-new" src="assets/images/rpeb/old/2016-rpeb-nav-old.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 rpeb-nav-new" alt="A screenshot of the outcome of the navigation interface redesign." src="assets/images/product-design/rpeb/refresh/2016-rpeb-nav.jpg">
+                                <img class="image-2 rpeb-nav-new" alt="A screenshot of the navigation interface before the redesign." src="assets/images/product-design/rpeb/old/2016-rpeb-nav-old.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">2. Buttons</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Buttons</div>
                                 <div class="desc">
                                     The button updates included creating copy consistency, removal of icons, and a style change to bring them up to date.
                                 </div>
@@ -157,20 +157,18 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 rpeb-buttons-new" src="assets/images/rpeb/refresh/2016-rpeb-buttons.jpg">
-                                <img class="image-2 rpeb-buttons-old" src="assets/images/rpeb/old/2016-rpeb-buttons-old.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 rpeb-buttons-new" alt="A screenshot of the outcome of the button components redesign." src="assets/images/product-design/rpeb/refresh/2016-rpeb-buttons.jpg">
+                                <img class="image-2 rpeb-buttons-old" alt="A screenshot of the button components before the redesign." src="assets/images/product-design/rpeb/old/2016-rpeb-buttons-old.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">3. Reports</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Reports</div>
                                 <div class="desc">
-                                    Similar to the older buttons, the report titles included icons that were not necessary. Hamburger icons used to sit to the left of the report title for no apparent reason. The report title now has breathing room, statuses are colour-coded for easy reading, column titles are lower case, and the highlighted row colour is easier on the eyes.
+                                    Similar to the older buttons, the report titles included icons that were not necessary. Hamburger icons used to sit to the left of the report title for no apparent reason. The report title now has breathing room, statuses are colour-coded for easy reading, column headers are title case, and the highlighted row colour is easier on the eyes.
                                 </div>
                                 <nav class="img-toggle" aria-label="Toggle Progress">
                                     <ul class="pagination">
@@ -179,18 +177,16 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 rpeb-reports-new" src="assets/images/rpeb/refresh/2016-rpeb-reports.jpg">
-                                <img class="image-2 rpeb-reports-old" src="assets/images/rpeb/old/2016-rpeb-reports-old.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 rpeb-reports-new" alt="A screenshot of the outcome of the report interface redesign." src="assets/images/product-design/rpeb/refresh/2016-rpeb-reports.jpg">
+                                <img class="image-2 rpeb-reports-old" alt="A screenshot of the report interface before the redesign." src="assets/images/product-design/rpeb/old/2016-rpeb-reports-old.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-area">
+                    </section>
+                    <section class="main-content project-area">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="title">4. Full Page</div>
-                            </div>
-                            <div class="col-md-3">
+                                <div class="title">Full Page</div>
                                 <div class="desc">
                                    The improvements mentioned above functioning as a whole.
                                 </div>
@@ -201,27 +197,24 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="col-md-9">
-                                <img class="image-1 rpeb-campaigns-new" src="assets/images/rpeb/refresh/2016-rpeb-campaigns.jpg">
-                                <img class="image-2 rpeb-campaigns-old" src="assets/images/rpeb/old/2016-rpeb-campaigns-old.jpg" style="display: none;">
+                            <div class="col-md-12 work-images">
+                                <img class="image-1 rpeb-campaigns-new" alt="A screenshot of the outcome of the product interface redesign as a whole." src="assets/images/product-design/rpeb/refresh/2016-rpeb-campaigns.jpg">
+                                <img class="image-2 rpeb-campaigns-old" alt="A screenshot of the product interface before the redesign." src="assets/images/product-design/rpeb/old/2016-rpeb-campaigns-old.jpg" style="display: none;">
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 project-navigation">
-                            <a href="rubicon-creatives.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                            <a class="next disabled pull-right">Next Project &rsaquo;</a>
+                    </section>
+                    <section class="project-navigation bottom">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="rubicon-creatives.html" class="prev pull-left">&lsaquo; Prev Project</a>
+                                <a class="next disabled pull-right">Next Project &rsaquo;</a>
+                            </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="social-icons">
-                <div class="twitter"><a href="https://twitter.com/eejaya"><i class="fa fa-twitter"></i></a></div>
-                <div class="linkedin"><a href="https://ca.linkedin.com/in/ejoan"><i class="fa fa-linkedin"></i></a></div>
-                <div class="email"><a href="mailto:ejoanand@gmail.com"><i class="fa fa-envelope-o"></i></a></div>
-            </div>
             <div class="copyright">
                 Design &amp; Build by Erika Joan Anderson &copy;
             </div>

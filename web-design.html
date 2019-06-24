@@ -8,7 +8,7 @@
 
         <!-- ****** faviconit.com favicons ****** -->
         <link rel="shortcut icon" href="/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
         <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
         <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
@@ -29,8 +29,8 @@
         <meta name="msapplication-config" content="/browserconfig.xml">
         <!-- ****** faviconit.com favicons ****** -->
 
-        <!-- Font - Quattrosans -->
-        <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <!-- Font - Lora & Lato -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Lora:400,400i,700&display=swap" rel="stylesheet" type="text/css">
 
         <!-- Fontawesome  -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -52,10 +52,14 @@
         <!-- Fotorama js -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
+        <!-- SmoothScroll js -->
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <script src="plugins/smoothscroll/jquery.smoothscroll.min.js"></script>
+
         <script src="helper.js"></script>
     </head>
     <body>
-        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top shadow">
+        <nav id="site-navigation" class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-target" aria-expanded="false">
@@ -69,7 +73,9 @@
                 <div class="collapse navbar-collapse" id="nav-target">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a id="home-link" href="index.html">Home</a>
+                            <a href="index.html" id="home-link">
+                                Home
+                            </a>
                         </li>
                         <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -97,69 +103,82 @@
                 </div>
             </div>
         </nav>
-        <div class="project-intro">
-            <section class="main-content">
-                <div class="row">
-                    <div class="col-md-12 project-navigation top">
-                        <a href="chango-dashboard.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                        <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
+        <section class="main-content" id="chatkit-website">
+            <h1 class="page-title nav-transition">Web Design</h1>
+            <div class="feature project">
+                <div class="copy">
+                    <div class="title">
+                        Web Design & Development
+                        <br />
+                        <span class='italic'>Chatkit</span>
+                    </div>
+                    <div class="desc">
+                        <p>
+                            Designing and developing the new Chatkit website was one of the first projects to reveal the refresh of the Chatkit brand. The website is the result of competitive analysis, target audience research, illustration experiments, and aligning with our core values and strengths to tell our story with a unique voice and visual style. Design and development by me, illustrations by <a class="secondary-link" href="https://razlatif.com/" target="_blank" style="font-family: 'Lora', serif;">Raz Latif</a>.
+                        </p>
+                        <a class="link" href="#mock-area">View Project</a>
+                        <span>&emsp;|&emsp;</span>
+                        <a class="link" target="_blank" href="https://chatkit.com/">Launch Site</a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-title">
-                            Product Design: Audience Forecasting
-                            <br />
-                            <em>The Rubicon Project</em>
-                        </h1>
-                        <div class="project desc">
-                            This new feature in the Rubicon Dashboard was implemented to allow users to determine the potential reach of future advertising campaigns. The audience forecast is established based on a set of parameters users are asked to specify, such as audience segment, inventory type, and region.
-                        </div>
+                <div class="image">
+                    <div class="img-wrap">
+                        <img src="assets/images/web-design/chatkit-phones.png" />
                     </div>
-                    <div class="col-md-4"></div>
-                </div>
-            </section>
-        </div>
-        <section class="portfolio" id="portfolio-area">
-            <div class="wrap-nested-row">
-                <div class="project">
-                    <section class="main-content project-area">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="title">Forecasting Interface</div>
-                                <div class="desc">
-                                    Once the user has specified all of the desired parameters, they can press the calculate button to see the estimated reach.
-                                </div>
-                                <nav class="img-toggle" aria-label="Toggle Progress">
-                                    <ul class="pagination">
-                                        <li class="active"><a class="link-1" href="">View 1</a></li>
-                                        <li><a class="link-2" href="">View 2</a></li>
-                                        <li><a class="link-3" href="">View 3</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="col-md-12 work-images">
-                                <img class="image-1 forecasting-1" alt="A screenshot of the audience forecasting interface that requires the user to enter in desired parameters and submit them to calculate the estimated reach." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Empty.jpg">
-                                <img class="image-2 forecasting-2" alt="A screenshot of a close up of the interface, showing form input details and an example of using the interface." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Close.jpg" style="display: none;">
-                                <img class="image-3 forecasting-3" alt="A screenshot of the calculated results based on the example parameters in the previous image." src="assets/images/product-design/audience-forecasting/2016-December-Audience-Forecast-Results.jpg" style="display: none;">
-                            </div>
-                        </div>
-                    </section>
-                    <section class="project-navigation bottom">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a href="chango-dashboard.html" class="prev pull-left">&lsaquo; Prev Project</a>
-                                <a href="rubicon-cross-device.html" class="next pull-right">Next Project &rsaquo;</a>
-                            </div>
-                        </div>
-                    </section>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="copyright">
-                Design &amp; Build by Erika Joan Anderson &copy;
-            </div>
-        </footer>
+        <div class="grey-background">
+            <section class="main-content project-area" id="mock-area">
+                <nav class="img-toggle" aria-label="Toggle Progress">
+                    <ul class="pagination">
+                        <li class="active"><a class="link-1" href="">Desktop</a></li>
+                        <li><a class="link-2" href="">Mobile</a></li>
+                    </ul>
+                </nav>
+                <div class="website-mocks">
+                    <div class="desktop image-1">
+                        <div class="img-wrap homepage">
+                            <img alt="A high fidelity mockup of the Chatkit homepage on desktop." src="assets/images/web-design/homepage-desktop.png">
+                        </div>
+                        <div class="img-wrap solutions">
+                            <img alt="A high fidelity mockup of the Chatkit solutions page on desktop." src="assets/images/web-design/solutions-desktop.png">
+                        </div>
+                        <div class="img-wrap about">
+                            <img alt="A high fidelity mockup of the Chatkit about page on desktop." src="assets/images/web-design/about-us-desktop.png">
+                        </div>
+                    </div>
+                    <div class="mobile image-2" style="display: none;">
+                        <div class="img-wrap homepage">
+                            <img alt="A high fidelity mockup of the Chatkit homepage on mobile." src="assets/images/web-design/homepage-mobile.png">
+                        </div>
+                        <div class="img-wrap solutions">
+                            <img alt="A high fidelity mockup of the Chatkit solutions page on mobile." src="assets/images/web-design/solutions-mobile.png">
+                        </div>
+                        <div class="img-wrap about">
+                            <img alt="A high fidelity mockup of the Chatkit about page on mobile." src="assets/images/web-design/about-us-mobile.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="copyright">
+                    Design &amp; Build by Erika Joan Anderson &copy;
+                </div>
+            </footer>
+        </div>
+    <script>
+        $(document).ready(function(){
+            $(function() {
+                $('a[href*="#"]').smoothscroll({
+                    duration: 1500,
+                    easing: 'swing',
+                    offset: -60,
+                    hash: true,
+                    focus: false,
+                });
+            });
+        });
+    </script>
     </body>
 </html>
